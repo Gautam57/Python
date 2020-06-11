@@ -1,5 +1,0 @@
-rad=float(input("Input radius of circle: "))
-pi=3.1415
-area=pi*rad*rad
-print("The Area of Circle with Radius "+str(rad)+ " is = "+str(area))
-
