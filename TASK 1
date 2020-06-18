@@ -6,6 +6,6 @@ print("The Area of Circle with radius " + str(rad) + " is = " + str(area))
 
 #(2.)PROGRAM TO ACCEPT FILENAME FROM USER & PRINT ITS EXTENSION
 
-fn=str(input("Input the FileName: ")).split(".")
-print("The Extension of File is: " + (fn[-1]))
+filename=str(input("Input the FileName: ")).split(".")
+print("The Extension of File is: " + (filename[-1]))
 
