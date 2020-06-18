@@ -11,8 +11,8 @@ for num in list:
         li.append(int(num))
 print("Output List consisting of positive numbers:",li)
 
+#output:
 """
-ouput:
 Enter a number: 12
 Enter a number: -1
 Enter a number: 4
