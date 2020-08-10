@@ -4,22 +4,19 @@ rad=float(input("Input radius of circle: "))
 area=3.1415*rad*rad
 print("The Area of Circle with radius " + str(rad) + " is = " + str(area))
 
-#output:
-***
-Input radius of circle: 1.1
-The Area of Circle with radius 1.1 is = 3.8012150000000005
-***
+
+
 
 #(2.)PROGRAM TO ACCEPT FILENAME FROM USER & PRINT ITS EXTENSION
 
 filename=str(input("Input the FileName: ")).split(".")
 print("The Extension of File is: " + (filename[-1]))
 
-#output:
-***
-Input the FileName: abc.html
-The Extension of File is: html
-***
+
+
+
+
+
 
 
 
