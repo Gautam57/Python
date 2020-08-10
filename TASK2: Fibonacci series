@@ -9,18 +9,18 @@ for i in range(0,n):
   a=b
   b=c
   
-#output:
-***
-Enter number of terms: 7
-The required Fibonacci series is: 
-0
-1
-1
-2
-3
-5
-8
-***
+
+
+
+ 
+
+
+
+
+
+
+
+
   
   
   
