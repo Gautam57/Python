@@ -10,7 +10,7 @@ def most_frequent():
 
     y = sorted([(v,k) for k,v in dict.items()],reverse = True)
     
-    for v,k in y[:10]:
+    for v,k in y:
         print(k,'=',v) 
         
 most_frequent()
