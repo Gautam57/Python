@@ -1,12 +1,16 @@
-str = input('Enter a string: ') 
-dict = {}
+def most_frequent():
     
-for line in str:
-    words = line.split()
-    for word in words:
-        dict[word] = dict.get(word,0) + 1
+    str = input('Enter a string: ')
+    dict = {}
+    
+    for line in str:
+        words = line.split()
+        for word in words:
+            dict[word] = dict.get(word,0) + 1
 
-y = sorted([(v,k) for k,v in dict.items()],reverse = True)
+    y = sorted([(v,k) for k,v in dict.items()],reverse = True)
     
-for v,k in y:
-    print(k,'=',v) 
+    for v,k in y[:10]:
+        print(k,'=',v) 
+        
+most_frequent()
